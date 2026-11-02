@@ -1,0 +1,15 @@
+name: Mostrar mensaje
+
+on: [push]
+
+jobs:
+  mostrar:
+    runs-on: ubunto-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Hola, GitHub Actions"
+
+      - name: Mostrar fecha y hora 
+        run: date
+      - name: Mostrar versión de Java
+        run: java -version
