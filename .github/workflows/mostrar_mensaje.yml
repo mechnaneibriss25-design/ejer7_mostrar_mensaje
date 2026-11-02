@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   mostrar:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Mostrar mensaje
         run: echo "Hola, GitHub Actions"
